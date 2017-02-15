@@ -1,11 +1,2 @@
-/.idea
-#.idea/.name
-#.idea/compiler.xml
-#.idea/copyright/
-#.idea/encodings.xml
-#.idea/misc.xml
-#.idea/modules.xml
-#.idea/reinforcement-learning.iml
-#.idea/workspace.xml
-
 *.pyc
+/.idea/

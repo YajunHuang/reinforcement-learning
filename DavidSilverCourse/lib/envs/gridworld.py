@@ -113,6 +113,3 @@ class GridWorld(discrete.DiscreteEnv):
                 outfile.write("\n")
 
             grid_it.iternext()
-
-
-

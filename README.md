@@ -1,10 +1,13 @@
 # reinforcement-learning
-My implementation of reinforcement learning algorithms. I do this work for writing notes and doing exercises of RL open courses.
+This is a repository of my reinforcement learning material. I do this work for the following purposes:
+- maintaining study resources of RL.
+- writing notes and doing exercises of RL open courses.
+- implementing algorithms about RL.
 
 ### Resources
 Books
 
-- [Sutton & Barto, Reinforcement Learning: An Introduction (2nd Edition)](https://webdocs.cs.ualberta.ca/~sutton/book/bookdraft2016sep.pdf)
+- [Sutton & Barto, Reinforcement Learning: An Introduction (2nd Edition)](http://incompleteideas.net/sutton/book/the-book-2nd.html)
 - [Szepesvari, Algorithms for Reinforcement Learning (Last update: May 18, 2013)](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 - [Ian Goodfellow, Yoshua Bengio, Aaron Courville, Deep Learning](http://www.deeplearningbook.org/)
 
