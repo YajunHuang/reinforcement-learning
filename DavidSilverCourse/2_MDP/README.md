@@ -47,3 +47,8 @@ __Optional:__
 - Introduction to Probability Models - Chapter 4: Markov Chains
 
 ### Excercises
+
+
+### Reference
+
+- [MDPs and Bellman Equations](https://github.com/dennybritz/reinforcement-learning/tree/master/MDP)

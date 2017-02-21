@@ -17,7 +17,7 @@ class Action(object):
     LEFT = 3
 
 
-class GridWorld(discrete.DiscreteEnv):
+class GridWorldEnv(discrete.DiscreteEnv):
     """
     Grid World environment from Sutton's Reinforcement Learning book chapter 4.
     You are an agent on an MxN grid and your goal is to reach the terminal
@@ -73,14 +73,14 @@ class GridWorld(discrete.DiscreteEnv):
             P[s][Action.LEFT] = [(1.0, left_next_state, reward, is_done)]
             P[s][Action.RIGHT] = [(1.0, right_next_state, reward, is_done)]
 
-            grid_it.next()
+            grid_it.iternext()
 
         self.P = P
 
         # Initial state distribution is uniform
         isd = np.ones(nS) / nS
         # ...
-        super(GridWorld, self).__init__(nS, nA, P, isd)
+        super(GridWorldEnv, self).__init__(nS, nA, P, isd)
 
     def _render(self, mode='human', close=False):
         if close:

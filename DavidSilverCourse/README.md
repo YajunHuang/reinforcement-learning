@@ -5,3 +5,9 @@ I do this work for writing notes and doing exercises of David Silver's open cour
 But the learning materials I used are not limited to course slides and videos.
 [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning) is the main reference of this work.
 
+
+run this code:
+
+    cd path/to/project
+    python -m IPython notebook
+

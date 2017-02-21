@@ -51,3 +51,7 @@ N/A
 ### Exercises
 
 - [Work through the OpenAI Gym Tutorial](https://gym.openai.com/docs)
+
+### Reference
+
+- [Introduction](https://github.com/dennybritz/reinforcement-learning/tree/master/Introduction)
